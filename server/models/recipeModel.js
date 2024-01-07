@@ -9,6 +9,12 @@ const ingredientSchema = new mongoose.Schema({
   type: {
     type: String,
   },
+  quantity: {
+    type: Number,
+  },
+  unit: {
+    type: String,
+  }
 });
 
 const recipeSchema = new Schema({
