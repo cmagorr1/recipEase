@@ -7,11 +7,11 @@ import './app.css';
 const Home = () => {
   return (
     <>
-    <div className='header'>
-              <Header />  
-    </div>
-    <Main />
-    <Footer />
+      <div className='header'>
+        <Header />  
+      </div>
+      <Main />
+      <Footer />
     </>
   );
 };
